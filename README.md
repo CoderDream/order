@@ -1,7 +1,9 @@
 # 用Jenkins自动化搭建测试环境 #
  
 老钱666
-[https://www.imooc.com/learn/1008](https://www.imooc.com/learn/1008)
+
+课程地址[https://www.imooc.com/learn/1008](https://www.imooc.com/learn/1008)
+
 软件测试工程师 难度入门 时长 1小时21分 
 
 
