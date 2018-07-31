@@ -8,38 +8,65 @@
 前言 xix
 ## 第1 章 Jenkins 简介 1 ##
 简介 1
+
 持续集成基础 1
+
 Jenkins 简介（née Hudson） 3
+
 从Hudson 到Jenkins——一个简短的故事 3
+
 应该使用Jenkins 还是Hudson 4
+
 引进持续集成到你的公司 5
+
 阶段1——无构建服务器 5
+
 阶段2——夜间构建 6
+
 阶段3——夜间构建加自动化测试 6
+
 阶段4——加入度量指标 6
+
 阶段5——更认真地对待测试 6
+
 阶段6——自动化验收测试和自动化部署 7
+
 阶段7——持续部署 7
+
 接下来做什么呢 7
+
 ## 第2 章 迈入Jenkins 的第一步 9 ##
 简介 9
+
 准备环境 9
+
 安装Java 10
+
 安装Git 11
+
 创建GitHub 账号 11
+
 配置SSH 密钥 11
+
 创建代码库分支 12
+
 启动Jenkins 13
+
 配置工具 17
+
+任务执行成功：
+
 ![](https://raw.githubusercontent.com/CoderDream/order/master/snapshot/Jenkins_0101.png)
+
 配置你的Maven 设置 18
 
 ![](https://raw.githubusercontent.com/CoderDream/order/master/snapshot/Jenkins_0102.png)
 
+选择运行环境为Linux
 
 ![](https://raw.githubusercontent.com/CoderDream/order/master/snapshot/Jenkins_0103.png)
 
-
+git代码地址：
 ![](https://raw.githubusercontent.com/CoderDream/order/master/snapshot/Jenkins_0104.png)
 
 
@@ -61,6 +88,15 @@ Jenkins 简介（née Hudson） 3
 你的第一个Jenkins 构建作业 21
 你的第一个构建作业 26
 更多的报告——显示Javadoc 33
+
+    
+gameoflife-core/target/site/apidocs
+
+
+’‘’
+
+‘’‘
+
 添加代码覆盖率和其他度量 34
 小结 40
 ## 第3 章 安装Jenkins 41 ##
